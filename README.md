@@ -4,6 +4,7 @@ Talk to your YouTube Video! Paste in video link and ask a natural language quest
 
 <p align="center"> <img width="592" alt="vidquest splash" src="https://github.com/user-attachments/assets/6f9a4b5e-a109-40c3-9464-6b217e07b6e7"> </p>
 
+
 ## Technical Overview
 
 VideoQuest is a cutting-edge full-stack application that allows users to search and interact with YouTube videos using natural language queries. This project leverages the power of Django for the backend, Next.js for the frontend, and integrates advanced AI technologies for video processing and natural language understanding.
@@ -35,7 +36,7 @@ The combination of Next.js and Django creates a powerful full-stack solution, al
 
 ### AI and Video Processing
 
-The core of VideoQuest's functionality lies in its AI-powered video processing and natural language understanding capabilities. Iutilize Hugging Face's Transformers library for state-of-the-art NLP models.
+The core of VideoQuest's functionality lies in its AI-powered video processing and natural language understanding capabilities. I utilize Hugging Face's Transformers library for state-of-the-art NLP models.
 
 #### Video Processing Workflow
 
@@ -46,21 +47,21 @@ The core of VideoQuest's functionality lies in its AI-powered video processing a
 
 #### Natural Language Processing
 
-Iemploy a pre-trained question-answering model from Hugging Face (e.g., DistilBERT) to process user queries and find relevant answers within the video transcript. This allows for contextual understanding and precise information retrieval.
+I employ a pre-trained question-answering model from Hugging Face (e.g., DistilBERT) to process user queries and find relevant answers within the video transcript. This allows for contextual understanding and precise information retrieval.
 
 ### Challenges and Solutions
 
 #### Python Version Compatibility
 
-One significant challenge was aligning the Python version with compatible Hugging Face Transformers. Isettled on Python 3.8, which provided a good balance between modern features and library compatibility.
+One significant challenge was aligning the Python version with compatible Hugging Face Transformers. I settled on Python 3.10, which provided a good balance between modern features and library compatibility.
 
 #### Video Processing Optimization
 
-Processing large video files efficiently required careful optimization. Iimplemented chunked processing and utilized multiprocessing to handle large videos without overwhelming system resources.
+Processing large video files efficiently required careful optimization. I implemented chunked processing and utilized multiprocessing to handle large videos without overwhelming system resources.
 
 #### Frontend-Backend Integration
 
-Ensuring seamless communication between the Next.js frontend and Django backend required careful API design and CORS configuration. Iimplemented JWT authentication for secure data exchange.
+Ensuring seamless communication between the Next.js frontend and Django backend required careful API design and CORS configuration. I implemented JWT authentication for secure data exchange.
 
 ### User Workflow and Experience
 
@@ -85,4 +86,4 @@ Future enhancements could include:
 - Integrating with other video platforms beyond YouTube
 - Developing a mobile application for on-the-go video searching
 
-VideoQuest showcases the potential of AI in transforming how Iinteract with video content, opening up new possibilities for education, research, and content discovery.
+VideoQuest showcases the potential of AI in transforming how I interact with video content, opening up new possibilities for education, research, and content discovery.
